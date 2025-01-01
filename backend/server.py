@@ -187,9 +187,18 @@ app.add_middleware(
 
 
 # Define DOC_PATH
-DOC_PATH = os.getenv("DOC_PATH", "./my-docs")
+# Load DOC_PATH from .env file
+from dotenv import load_dotenv
+load_dotenv()
+
+DOC_PATH = os.getenv("DOC_PATH")
+if not DOC_PATH:
+    DOC_PATH = "./data"  # Default value if not set in .env
+print("llm - DOC_PATH", DOC_PATH)
+
 if not os.path.exists(DOC_PATH):
     os.makedirs(DOC_PATH)
+
 
 
 @app.post("/upload/")

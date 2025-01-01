@@ -1,0 +1,18 @@
+I put the data in /frontend/static/data/
+in agent.py, I set the doc_path to DOC_PATH = "./frontend/static/data/"
+in agent.py I create my variant of the report_source
+in multi_agents/agents I create my variant of the agent lmm_cv.py
+
+when the user clicks the frontend create a task in the web socket
+the websocket manager creates an agent and a researcher
+the researcher runs the research and sends the results to the LLM agent
+the LLM agent creates a report and sends it to the user
+
+I use the gpt_researcher/master/agent.py as the base agent
+
+I use the reviser as the base for the agents
+
+pending , copy output as json of reviser
+
+
+uvicorn main:app --reload

@@ -12,6 +12,10 @@ from gpt_researcher.memory import Memory
 from gpt_researcher.utils.enum import ReportSource, ReportType, Tone
 
 
+
+from multi_agents.agents import agent_extractSkillsFromCV
+from multi_agents.agents import agent_createCoverLetter
+
 class GPTResearcher:
     """
     GPT Researcher
@@ -105,52 +109,50 @@ class GPTResearcher:
         if self.verbose:
             await stream_output(
                 "logs",
-                "starting_research",
+                "starting_the_task",
                 f"🔎 Starting the research task for '{self.query}'...",
                 self.websocket,
             )
 
-        # Generate Agent
-        if not (self.agent and self.role):
-            self.agent, self.role = await choose_agent(
-                query=self.query,
-                cfg=self.cfg,
-                parent_query=self.parent_query,
-                cost_callback=self.add_costs,
-                headers=self.headers,
-            )
+      
+       
+       
 
-        if self.verbose:
-            await stream_output("logs", "agent_generated", self.agent, self.websocket)
 
-        # If specified, the researcher will use the given urls as the context for the research.
-        if self.source_urls:
-            self.context = await self.__get_context_by_urls(self.source_urls)
 
-        elif self.report_source == ReportSource.Local.value:
-            document_data = await DocumentLoader(self.cfg.doc_path).load()
-            self.context = await self.__get_context_by_search(self.query, document_data)
+        # I want to see the tone of the agent
+        #await stream_output("logs", "lmm - tone of the agent", str(self.tone), self.websocket)
+      
+        # Log the type of self.report_source
+        #await stream_output(
+        #    "logs",
+        #    "llm - report_source_type",
+        #    f"llm -Report source type: {self.report_source}",
+        #    self.websocket,
+        #)
 
-        # Hybrid search including both local documents and web sources
-        elif self.report_source == ReportSource.Hybrid.value:
-            document_data = await DocumentLoader(self.cfg.doc_path).load()
-            docs_context = await self.__get_context_by_search(self.query, document_data)
-            web_context = await self.__get_context_by_search(self.query)
-            self.context = f"Context from local documents: {docs_context}\n\nContext from web sources: {web_context}"
+        #llm  - here we do our things
+        document_data = await DocumentLoader(self.cfg.doc_path).load()
+        self.documents = document_data
 
-        elif self.report_source == ReportSource.LangChainDocuments.value:
-            langchain_documents_data = await LangChainDocumentLoader(
-                self.documents
-            ).load()
-            self.context = await self.__get_context_by_search(
-                self.query, langchain_documents_data
-            )
+        jd = self.query
+        skills = agent_extractSkillsFromCV.extractSkillsFromJD(jd) 
+        coverletter = agent_createCoverLetter.createCL(document_data, skills)
 
-        elif self.report_source == ReportSource.LangChainVectorStore.value:
-            self.context = await self.__get_context_by_vectorstore(self.query, self.vector_store_filter)
-        # Default web based research
-        else:
-            self.context = await self.__get_context_by_search(self.query)
+
+        # print all the skillst 
+        #for skill in skills:
+        #    print(f"Skill Name: {skill.skill_name}, Description: {skill.skill_description}")
+
+       # await stream_output("logs", "skills", str(skills), self.websocket)
+
+
+       
+        await stream_output("logs", "cover letter", str(coverletter), self.websocket)
+
+        #await stream_output("logs", "xx", "lmm - document_data" + str(document_data), self.websocket)
+        #self.context = await self.__get_context_by_search(self.query, document_data)
+           
 
         time.sleep(2)
         if self.verbose:
@@ -164,12 +166,17 @@ class GPTResearcher:
         return self.context
 
     async def write_report(self, existing_headers: list = [], relevant_written_contents: list = []):
+        
+       
         """
         Writes the report based on research conducted
 
         Returns:
             str: The report
         """
+         #for now we skip this
+        return
+    
         report = ""
 
         if self.verbose:
@@ -179,6 +186,7 @@ class GPTResearcher:
                 f"✍️ Writing summary for research task: {self.query} (this may take a few minutes)...",
                 self.websocket,
             )
+        
 
         if self.report_type == "custom_report":
             self.role = self.cfg.agent_role if self.cfg.agent_role else self.role

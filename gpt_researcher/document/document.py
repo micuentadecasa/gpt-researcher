@@ -16,6 +16,7 @@ class DocumentLoader:
 
     def __init__(self, path):
         self.path = path
+        print("path to the documents: ", self.path)
 
     async def load(self) -> list:
         tasks = []
@@ -24,12 +25,15 @@ class DocumentLoader:
                 file_path = os.path.join(root, file)
                 file_name, file_extension_with_dot = os.path.splitext(file_path)
                 file_extension = file_extension_with_dot.strip(".")
+                #print("lmm - file_extension and name", file_extension, file_name)
                 tasks.append(self._load_document(file_path, file_extension))
 
         docs = []
         for pages in await asyncio.gather(*tasks):
             for page in pages:
+                #print("lmm - page", str(page))
                 if page.page_content:
+                    #print("lmm 2- page.page_content", os.path.basename(page.metadata['source']))
                     docs.append({
                         "raw_content": page.page_content,
                         "url": os.path.basename(page.metadata['source'])
@@ -43,9 +47,11 @@ class DocumentLoader:
     async def _load_document(self, file_path: str, file_extension: str) -> list:
         ret_data = []
         try:
+            
             loader_dict = {
                 "pdf": PyMuPDFLoader(file_path),
                 "txt": TextLoader(file_path),
+                "json": TextLoader(file_path),
                 "doc": UnstructuredWordDocumentLoader(file_path),
                 "docx": UnstructuredWordDocumentLoader(file_path),
                 "pptx": UnstructuredPowerPointLoader(file_path),

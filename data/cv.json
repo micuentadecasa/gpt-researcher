@@ -1,0 +1,266 @@
+{
+    "personal_information": {
+      "name": "Luis",
+      "surname": "Molina Martinez",
+      "date_of_birth": "08/08/1971",
+      "country": "Spain",
+      "city": "Albacete",
+      "phone_prefix": "+34",
+      "phone": "666613835",
+      "email": "micuentadecasa@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/luis-molina-5813b512",
+      "short_description": "Experienced Engineering Manager and Solutions Architect with over 20 years in the IT industry, specialising in Cloud Architecture, Data Engineering, Machine Learning, and Artificial Intelligence. Proven track record in leading global projects, designing innovative solutions, and managing cross-functional teams."
+    },
+    "education_details": [
+      {
+        "degree": "Bachelor's Degree",
+        "university": "Universidad de Castilla La Mancha",
+        "graduation_year": "July 1997",
+        "field_of_study": "Computer Sciences"
+      }
+    ],
+    "experience_details": [
+      {
+        "position": "AI SENIOR DEVELOPER",
+        "company": "CONVOTIS",
+        "employment_period": "NOVEMBER 2024 - Present",
+        "location": "REMOTE, Spain",
+        "industry": "Artificial intelligence",
+        "short_description": "SENIOR AI Engineer for Generative AI and Subject Matter Expert in Cloud Computing and Artificial Intelligence, leading multiple AI and cloud projects across various domains.",
+        "key_responsibilities": [
+          "Oversee deployment, estimation, proposal development, and project management of Generative AI initiatives.",
+          "Spearhead AI projects with agents, leveraging advanced AI technologies.",
+          "Architect AI solutions",
+          "estimate agentic solutions.",
+          "Model monitoring and evaluation of models"
+        ],
+        "projects": [
+          "design and lead agentic solutions for solving complex problems.",
+          "Computer Vison solutions (wind turbines defects, Marble quality, etc.).",
+          "Automated document approvals,RAG SYSTEMS, ETC.."
+        ],
+        "tools and skills": [
+          "AWS",
+          "AZURE",
+          "Generative AI",
+          "Chatbots",
+          "AGENTS",
+          "RAG",
+          "Document Approvals",
+          "python",
+          "Devops",
+          "CI/CD"
+          ]
+      },{
+        "position": "AI ENGINEER",
+        "company": "DIGITAL TRANSFORMATION AND ARTIFICIAL INTELLIGENCE - JCCM",
+        "employment_period": "September 2024 - NOVEMBER 2024",
+        "location": "Toledo, Spain",
+        "industry": "Artificial intelligence",
+        "short_description": "AI Engineer for Generative AI and Subject Matter Expert in Cloud Computing and Artificial Intelligence, leading multiple AI and cloud projects across various domains.",
+        "key_responsibilities": [
+          "Oversee deployment, estimation, proposal development, and project management of Generative AI initiatives.",
+          "Spearhead AI projects in HR, Document revision, leveraging advanced AI technologies.",
+          "Architect AI solutions using Red Hat Openshift and IBM Cloud pak.",
+        ],
+        "projects": [
+          "Developed AI-driven HR summary systems for the regional employment system.",
+          "Designed and implemented chatbots and Retrieval-Augmented Generation (RAG) systems for documentation review.",
+          "Automated document approvals, enabling the review of thousands of documents annually."
+        ],
+        "tools and skills": [
+          "Red Hat Openshift",
+          "IBM Cloud pak",
+          "Generative AI",
+          "Chatbots",
+          "RAG",
+          "Document Approvals",
+          "python",
+          "Devops",
+          "CI/CD"
+          ]
+      },
+      {
+        "position": "Technical Manager",
+        "company": "NTT DATA Valencia",
+        "employment_period": "February 2024 - August 2024",
+        "location": "Valencia, Spain",
+        "industry": "Technology",
+        "short_description": "Technical Manager for Generative AI and Subject Matter Expert in Cloud Computing and Artificial Intelligence, leading multiple AI and cloud projects across various domains.",
+        "key_responsibilities": [
+          "Lead and manage cross-functional teams for AI and cloud projects, ensuring alignment with client needs and cutting-edge technologies.",
+          "Oversee deployment, estimation, proposal development, and project management of Generative AI initiatives.",
+          "Model monitoring and evaluation of models",
+          "Spearhead AI projects in healthcare, customer service, and insurance, leveraging advanced AI technologies.",
+          "Architect AI solutions using Azure, AWS, and Databricks, adapting to client-specific blueprints for hyperscalers.",
+          "Automate document approval processes, enhancing efficiency and accuracy with LLMs."
+        ],
+        "projects": [
+          "Developed AI-driven health summary systems and clinical results review processes.",
+          "Designed and implemented chatbots and Retrieval-Augmented Generation (RAG) systems.",
+          "Architected Generative AI ARCHITECTURES for scalable solutions in hyperscalers, adapting to client-specific blueprints.",
+          "Automated document approvals, enabling the review of thousands of documents annually."
+        ],
+        "tools and skills": [
+          "Azure",
+          "AWS",
+          "Databricks",
+          "Generative AI",
+          "Chatbots",
+          "RAG",
+          "Document Approvals",
+          "python",
+          "Devops",
+          "CI/CD"
+          ]
+      },
+      {
+        "position": "Technology Development Associate (Solutions Architect / Technical Lead/Project Manager)",
+        "company": "DFS UNOPS Valencia (UNITED NATIONS OFFICE FOR PROJECTS AND SERVICES)",
+        "employment_period": "January 2018 - February 2024",
+        "location": "Valencia, Spain",
+        "industry": "International Development",
+        "short_description": "Technical Leader and Subject Matter Expert in Software Development, Cloud Computing, and Artificial Intelligence, spearheading global projects and technology implementation at UNOPS.",
+        "key_responsibilities": [
+          "Led global AI and Machine Learning projects, focusing on Computer Vision applications, and AI initiatives.",
+          "Architect solutions based on Kubernetes, Docker, etc. on Azure.",
+          "Pioneered Cloud and AI technology adoption, driving advancements in data analytics and cloud services.",
+          "Pioneered Edge devices implementation for areas where Cloud services were not available, and AI processing has to be done locally.",
+          "Leadership of Data scientist and Engineers.",
+          "Azure devops for CI/CD.",
+          "MLOPS WITH DVC for model and dataset tracing",
+          "Lead visualizations and insights display with PowerBI",
+          "Managed high-impact projects from ideation to service delivery, ensuring alignment with business needs.",
+          "Collaborated with the Cybersecurity Unit to implement endpoint security architecture and compliance policies.",
+          "Guided developer teams and coordinated with external stakeholders to ensure successful project outcomes.",
+          "Investigate Azure services like powerbi, power apps, and data analytics to improve data processing and analysis.",
+          "IED (Improvised exploding devices) threat mitigation and UAV (unmanned aerial vehicles) training and capacity development, including forensic investigation.",
+          "Experience in designing and implementing solutions for peacekeeping missions, including UAVs training, 3D mapping with drones for creating digital twins of peacekeeping missions."
+        ],
+        "projects": [
+          "Designed and implemented an AI video surveillance system for peacekeeping missions. The project also included a lot of Architecture and Infrastructure design and study for using Edge devices for local processing.",
+          "Developed a NLP (language) system for detecting hate speech in social media, contributing to global UN efforts.",
+          "Led the implementation of Cloud Advanced Data Analytics in Azure, doing the EDA (exploratory data analysis), including predictive maintenance and RPA solutions.",
+          "Created and integrated a real-time tracking system for assets in peacekeeping missions into the Unite Aware Programme.",
+          "Capacity building, design and implementation of training for the projects implemented in coordination with training Unit",
+          "power automate apps for budget control, oil expenses approval, phone bills automation",
+          "UAVs training, 3D mapping with drones for creating digital twins of peacekeeping missions"
+        ],
+        "tools and skills": [
+          "Azure",
+          "Generative AI",
+          "ML",
+          "RAG",
+          "ARCHITECTURE",
+          "python",
+          "Devops",
+          "CI/CD",
+          "Kubernetes",
+          "Docker"
+          ]
+      },
+      {
+        "position": "International SharePoint Consultant (SharePoint – C# .Net)",
+        "company": "RASO UNLB (UNITED NATIONS)",
+        "employment_period": "February 2014 - August 2017",
+        "location": "Brindisi, Italy",
+        "industry": "Aviation Safety",
+        "short_description": "International consultant specialising in SharePoint development and data management systems, focusing on enhancing aviation safety through advanced technological solutions.",
+        "key_responsibilities": [
+          "Developed and maintained SharePoint-based systems for aviation safety data management.",
+          "Integrated mobile data collection apps with backend systems for real-time safety assessments.",
+          "Provided consultancy on risk management and system integration for UN aviation operations."
+        ],
+        "projects": [
+          "Developed a hybrid data collection system integrating mobile apps with SharePoint for aviation safety.",
+          "Provided consultancy on implementing risk management systems, improving UN aviation safety protocols."
+        ],
+        "tools and skills": [
+          "SharePoint",
+          "C#",
+          "Devops",
+          "CI/CD"
+          ]
+      }
+    ],
+    "achievements": [
+      {
+        "name": "AI-Driven Health Summary System",
+        "description": "Successfully developed and implemented an AI-driven system for summarising health data, significantly improving the efficiency of clinical reviews."
+      },
+      {
+        "name": "Chatbot and RAG System Development",
+        "description": "Led the design and deployment of chatbots and Retrieval-Augmented Generation (RAG) systems, streamlining customer interactions and enhancing service quality."
+      },
+      {
+        "name": "AI Video Surveillance System",
+        "description": "Designed and implemented an AI video surveillance system for UN peacekeeping missions, enhancing situational awareness and response times."
+      },
+      {
+        "name": "Hate Speech Detection System",
+        "description": "Developed a Computer Vision system for detecting hate speech on social media platforms, contributing to the UN's global strategy against misinformation."
+      }
+    ],
+    "certifications": [
+      "Prince2 Practitioner",
+      "ITIL V4",
+      "Microsoft Azure"
+    ],
+    "tools": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      ".NET",
+      "SharePoint"
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "C1"
+      }
+    ],
+    "interests": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Open Source Development",
+      "Community Engagement",
+      "Content Creation"
+    ],
+    "availability": {
+      "notice_period": "immediately"
+    },
+    "salary_expectations": {
+      "salary_range_usd": "100000"
+    },
+    "self_identification": {
+      "gender": "Male",
+      "pronouns": "He",
+      "veteran": "No",
+      "disability": "No",
+      "ethnicity": "White"
+    },
+    "legal_authorization": {
+      "eu_work_authorization": "Yes",
+      "us_work_authorization": "No",
+      "requires_us_visa": "Yes",
+      "requires_us_sponsorship": "Yes",
+      "requires_eu_visa": "No",
+      "legally_allowed_to_work_in_eu": "Yes",
+      "legally_allowed_to_work_in_us": "No",
+      "requires_eu_sponsorship": "No"
+    },
+    "work_preferences": {
+      "remote_work": "Yes",
+      "in_person_work": "Yes",
+      "open_to_relocation": "Yes",
+      "willing_to_complete_assessments": "Yes",
+      "willing_to_undergo_drug_tests": "Yes",
+      "willing_to_undergo_background_checks": "Yes"
+    }
+  }
+  

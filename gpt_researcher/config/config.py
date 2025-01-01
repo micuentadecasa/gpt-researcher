@@ -49,6 +49,7 @@ class Config:
             self.llm_kwargs = {}
 
         if self.doc_path:
+            #print("doc path xxxx: ", self.doc_path)
             self.validate_doc_path()
 
     def parse_retrievers(self, retriever_str: str):

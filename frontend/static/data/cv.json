@@ -1,0 +1,219 @@
+{
+    "personal_information": {
+      "name": "Luis",
+      "surname": "Molina Martinez",
+      "date_of_birth": "08/08/1971",
+      "country": "Spain",
+      "city": "Albacete",
+      "phone_prefix": "+34",
+      "phone": "666613835",
+      "email": "micuentadecasa@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/luis-molina-5813b512",
+      "short_description": "Experienced Engineering Manager and Solutions Architect with over 20 years in the IT industry, specialising in Cloud Architecture, Data Engineering, Machine Learning, and Artificial Intelligence. Proven track record in leading global projects, designing innovative solutions, and managing cross-functional teams."
+    },
+    "education_details": [
+      {
+        "degree": "Bachelor's Degree",
+        "university": "Universidad de Castilla La Mancha",
+        "graduation_year": "July 1997",
+        "field_of_study": "Computer Sciences"
+      }
+    ],
+    "experience_details": [
+      {
+        "position": "Technical Manager",
+        "company": "NTT DATA Valencia",
+        "employment_period": "February 2024 - August 2024",
+        "location": "Valencia, Spain",
+        "industry": "Technology",
+        "short_description": "Technical Manager for Generative AI and Subject Matter Expert in Cloud Computing and Artificial Intelligence, leading multiple AI and cloud projects across various domains.",
+        "key_responsibilities": [
+          "Lead and manage cross-functional teams for AI and cloud projects, ensuring alignment with client needs and cutting-edge technologies. Mentoring of developers. Hiring of developers.",
+          "Oversee deployment, estimation, proposal development, and project management of Generative AI initiatives.",
+          "Spearhead AI projects in healthcare, customer service, and insurance, leveraging advanced AI technologies.",
+          "Architect AI solutions using Azure, AWS, and Databricks, adapting to client-specific blueprints for hyperscalers.",
+          "Automate document approval processes, enhancing efficiency and accuracy with LLMs.",
+          "Programme and Project Management. Programme for Generative AI, Architecture for RAG systems",
+          "design and implement prompting strategies for LLMs to help users create new automations, making the process more intuitive and efficient",
+          "design and develop comprehensive evaluation suites to assess model performance and reliability.",
+          "implement LLM-assisted retrieval algorithms to provide accurate answers over large datasets.",
+          "collaborate with Data and cross-functional teams to refine and deploy LLM-based features",
+          "team support and supervision, and guidance in best practices, team performance, teamwork environment, and development.",
+          "effective communication with all business stakeholders who may have little to no machine learning knowledge, explaining and exploring the benefits and limitations of various machine learning approaches in the context of their business goals.",
+          "align technical solutions with business objectives. Proven expertise in conducting comprehensive business analysis to drive digital transformation initiatives. Successfully led global projects, ensuring they meet organizational goals and adhere to governance standards. Skilled in translating complex technical concepts into actionable business strategies and experienced in coordinating project activities across large organizations and international partners."
+
+        ],
+        "projects": [
+          "Developed AI-driven health summary systems and clinical results review processes. Summarize patient history and clinical results. ",
+          "Designed and implemented chatbots and Retrieval-Augmented Generation (RAG) systems.",
+          "classification of documents and emails", 
+          "Architected Generative AI solutions for hyperscalers, adapting to client-specific blueprints.",
+          "Automated document approvals, enabling the review of thousands of documents annually.",
+          "Project and programme management"
+        ],
+        "tools and skills": [
+          "Azure",
+          "AWS",
+          "Databricks",
+          "Generative AI",
+          "Chatbots",
+          "RAG",
+          "Document Approvals",
+          "python",
+          "Devops",
+          "CI/CD"
+          ]
+      },
+      {
+        "position": "Technology Development Associate (Solutions Architect / Technical Lead/Project Manager)",
+        "company": "DFS – UNOPS Valencia (UNITED NATIONS OFFICE FOR PROJECTS AND SERVICES)",
+        "employment_period": "January 2018 - February 2024",
+        "location": "Valencia, Spain",
+        "industry": "International Development",
+        "short_description": "Technical Leader and Subject Matter Expert in Software Development, Cloud Computing, and Artificial Intelligence, spearheading global projects and technology implementation at UNOPS.",
+        "key_responsibilities": [
+          "Led global AI and Machine Learning projects.",
+          "Pioneered Cloud and AI technology adoption, driving advancements in data analytics and cloud services.",
+          "Managed high-impact projects from ideation to service delivery, ensuring alignment with business needs.",
+          "Collaborated with the Cybersecurity Unit to implement endpoint security architecture and compliance policies.",
+          "Guided developer teams and coordinated with external stakeholders to ensure successful project outcomes.",
+          "Project and programme management with Prince2 and ITIL. Documents for the project and programme management, PID, solutions design, functional requirements, technical requirements, test plan, test cases, user documentation, technical documentation, installation documentation, maintenance documentation, etc.",
+          "Cloud and AI technology adoption, driving advancements in data analytics and cloud services.",
+          "Solutions architecture, design and implementation. Solutions design documents",
+          "Agile project management, kanban, scrum, etc",
+          "start the projects with POCs (proof of concept), if the POC is successful then create a project with all the documentation in Prince2 (architecture, solutions design, PID, project planning), hire developers, manage and lead the project, engage with all the units (security, networking, capacity), standarize new technologies, define the service, deploy to production",
+          "change management. Once a change is needed, it is necessary to follow the change management process. first I evaluate the risks, viability and implications in other systems and services and investigate possible alternatives, I present the alternatives to the stakeholders, then I prepare a plan and a budget for the change, get the approval from the stakeholders and then I can start with the change.",
+          "Manages the allocation of resources, including time, personnel, and tools, to ensure project success within the given constraints, and works with management to define and manage project budgets.",
+          "Ensures that the software developed meets security standards, regulatory compliance requirements, and industry best practices.",
+         "Coordinated and managed the deployment and maintenance of ICT tools and databases across multiple projects.",
+          "Oversaw the technical management of licenses and renewals for commercial ICT tools.",
+          "Acted as a liaison between cross-functional teams to address ICT needs and implement improvement strategies.",
+          "Coordinated and managed the deployment and maintenance of ICT tools and databases across multiple projects.",
+          "Oversaw the technical management of licenses and renewals for commercial ICT tools.",
+          "Acted as a liaison between cross-functional teams to address ICT needs and implement improvement strategies.",
+          "align technical solutions with business objectives. Proven expertise in conducting comprehensive business analysis to drive digital transformation initiatives. Successfully led global projects, ensuring they meet organizational goals and adhere to governance standards. Skilled in translating complex technical concepts into actionable business strategies and experienced in coordinating project activities across large organizations and international partners."
+
+        ],
+        "projects": [
+    "Designed and implemented an AI video surveillance system for peacekeeping missions. NVIDIA Jetson, YOLO, DeepStream, NVIDIA TRITON, Azure Video Analyzer, AZURE STACK EDGE, Kubernetes. One of the most complex technology implementation projects I led was the development and deployment of an AI-driven video surveillance system for UN peacekeeping missions while at UNOPS. The system was designed to enhance security in conflict zones by providing real-time threat detection and analysis using advanced video analytics.\nThe key challenges included working with limited infrastructure in remote and high-risk environments and ensuring the system's robustness under these conditions. To address these challenges, I worked closely with cross-functional teams, including developers, field operators, and security personnel. We implemented Azure Stack Edge and Kubernetes for on-site processing, enabling real-time analytics even with limited connectivity.\nAnother major challenge was coordinating with multiple stakeholders, including UN security teams and local personnel. To ensure successful delivery, I applied Agile methodology, conducting iterative testing and regular updates to maintain flexibility and adaptability in this dynamic environment. I also led detailed risk assessments and mitigation strategies to ensure system stability and security compliance.\nThrough a combination of strong project management, collaboration, and continuous feedback loops, the project was delivered on time and significantly improved situational awareness and response times in the field.",
+    
+    "Designed and implemented a system for detecting hate speech in social media, contributing to global UN efforts. One of the most challenging projects I led was the development and implementation of a hate speech detection system for social media as part of a UN initiative at UNOPS. The project aimed to detect and flag harmful content in real-time, contributing to the global effort against hate speech.\nA key challenge was ensuring the system’s accuracy across multiple languages and diverse contexts, as hate speech can be subtle and vary significantly across regions. To address this, I worked closely with a team of data scientists and linguists to refine the natural language processing (NLP) models and improve the system's detection capabilities. We incorporated machine learning techniques to continuously enhance accuracy based on feedback loops.\nAnother challenge was the scale of the data, as the system had to process vast amounts of real-time social media content. To manage this, we implemented Azure Cloud and Kubernetes, ensuring scalability and efficient data processing.\nStakeholder management was also critical, given the involvement of various UN entities and external partners. By using Agile methodology, I ensured iterative development and constant communication, allowing for regular feedback and adjustments. The project was successfully delivered, improving the detection of hate speech across multiple platforms and supporting UN efforts globally.",
+    
+    "Led the implementation of Cloud Advanced Data Analytics in Azure, including predictive maintenance and RPA solutions.",
+    
+    "One of the most complex technology implementation projects I led was during my time at UNOPS, where I managed the development and deployment of a real-time asset tracking system for peacekeeping missions. The project involved integrating multiple technologies and coordinating across global teams in high-risk environments. The key challenge was ensuring that the system was both secure and reliable in conflict zones with limited infrastructure.\nOne significant challenge was dealing with the complexities of integrating various systems, such as geolocation services, cloud platforms, and on-site hardware, while maintaining real-time data accuracy. To address this, I worked closely with cross-functional teams, including developers and field operators, to ensure proper testing and validation at each stage of implementation. We used Agile methodology to remain flexible and quickly resolve issues as they arose, particularly around network connectivity and data syncing in remote areas.\nAnother challenge was managing stakeholder expectations across different departments. To mitigate this, I facilitated regular meetings to ensure alignment and used detailed project documentation to keep all parties informed. The project was delivered successfully, improving operational efficiency and safety in the field."
+  ],
+        "tools and skills": [
+          "Azure",
+          "Generative AI",
+          "ML",
+          "RAG",
+          "ARCHITECTURE",
+          "python",
+          "Devops",
+          "CI/CD",
+          "Kubernetes",
+          "Docker"
+          ]
+      },
+      {
+        "position": "International SharePoint Consultant (SharePoint – C# .Net)",
+        "company": "RASO UNLB (UNITED NATIONS)",
+        "employment_period": "February 2014 - August 2017",
+        "location": "Brindisi, Italy",
+        "industry": "Aviation Safety",
+        "short_description": "International consultant specialising in SharePoint development and data management systems, focusing on enhancing aviation safety through advanced technological solutions.",
+        "key_responsibilities": [
+          "Developed and maintained SharePoint-based systems for aviation safety data management.",
+          "Integrated mobile data collection apps with backend systems for real-time safety assessments.",
+          "Provided consultancy on risk management and system integration for UN aviation operations."
+        ],
+        "projects": [
+          "Developed a hybrid data collection system integrating mobile apps with SharePoint for aviation safety.",
+          "Provided consultancy on implementing risk management systems, improving UN aviation safety protocols."
+        ],
+        "tools and skills": [
+          "SharePoint",
+          "C#",
+          "Devops",
+          "CI/CD"
+          ]
+      },
+      {
+        "position": "Developer / Project Manager / (SharePoint  C# .Net)",
+        "company": "Multiple companies",
+        "employment_period": "February 1997 - August 2015",
+        "location": "Spain",
+        "industry": "Software Development",
+        "short_description": "Developer / Project Manager / (SharePoint  C# .Net)"
+      }
+    ],
+    "achievements": [
+      {
+        "name": "Health system",
+        "description": "Successfully developed and implemented a health system for INTERRAI organization."
+      }
+    ],
+    "certifications": [
+      "Prince2 Practitioner",
+      "ITIL V4",
+      "Microsoft Azure"
+    ],
+    "tools": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      ".NET",
+      "SharePoint"
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "proficiency": "Native"
+      },
+      {
+        "language": "English",
+        "proficiency": "B2"
+      }
+    ],
+    "interests": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Open Source Development",
+      "Community Engagement",
+      "Content Creation"
+    ],
+    "availability": {
+      "notice_period": "immediately"
+    },
+    "salary_expectations": {
+      "salary_range_usd": "50000"
+    },
+    "self_identification": {
+      "gender": "Male",
+      "pronouns": "He",
+      "veteran": "No",
+      "disability": "No",
+      "ethnicity": "White"
+    },
+    "legal_authorization": {
+      "eu_work_authorization": "Yes",
+      "us_work_authorization": "No",
+      "requires_us_visa": "Yes",
+      "requires_us_sponsorship": "Yes",
+      "requires_eu_visa": "No",
+      "legally_allowed_to_work_in_eu": "Yes",
+      "legally_allowed_to_work_in_us": "No",
+      "requires_eu_sponsorship": "No"
+    },
+    "work_preferences": {
+      "remote_work": "Yes",
+      "in_person_work": "Yes",
+      "open_to_relocation": "Yes",
+      "willing_to_complete_assessments": "Yes",
+      "willing_to_undergo_drug_tests": "Yes",
+      "willing_to_undergo_background_checks": "Yes"
+    }
+  }
+  
